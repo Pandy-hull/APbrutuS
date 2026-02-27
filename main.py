@@ -8,23 +8,25 @@ who = input('Who we doin this to (ex: khull2896@xxxxx.org or gramby5139@xxxxx.or
 def no():
     global wait
     while wait:
-        if pixel(1700, 400) != (22,22,23):
+        if pixel(1700, 400) != BaseColor:
             wait = False
-        sleep(0.01)
+            sleep(0.001)
     wait = True
     sleep(0.1)
 
 wait = True
 
-sleep(3)
+sleep(5)
 
 moveTo(1218,399)
 leftClick()
 typewrite(who)
 press('enter')
+sleep(0.5)
+BaseColor = pixel(1700, 400)
+print(BaseColor) #supposed to be
 
 no()
-sleep(2)
 for i in range(start, end+1):
     typewrite(str(i))
     press('enter')
