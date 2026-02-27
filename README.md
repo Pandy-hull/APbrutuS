@@ -12,7 +12,7 @@ if you want to check all passwords between 70000 and 60000 you would enter
 and who you want to find
 60000
 70000
-whull5551@apsk12.org
+thudu2683@xxxxx.org
 
 when this is done it will turn off and log the answer in password.txt
 
