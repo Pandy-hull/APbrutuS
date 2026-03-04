@@ -2,7 +2,7 @@
 
 hello this will review all password combos for an aps student if you do a full
 check it will take approximately 5.5 hours to check every combo assuming it is
-checking at a speed of 5 checks a second
+checking at a speed of 5 checks a second. This was made by big willy, if you know, you know.
 
 ### ------------ USAGE ----------
 
